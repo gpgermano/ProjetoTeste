@@ -1,9 +1,9 @@
 object frPrincipal: TfrPrincipal
-  Left = 222
-  Top = 129
-  Width = 928
-  Height = 480
-  Caption = 'Principal'
+  Left = 1069
+  Top = 161
+  Width = 294
+  Height = 145
+  Caption = 'Cadastro Conta Bancaria'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,4 +13,22 @@ object frPrincipal: TfrPrincipal
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btCadastroCliente: TButton
+    Left = 48
+    Top = 24
+    Width = 89
+    Height = 25
+    Caption = 'Cadastro Cliente'
+    TabOrder = 0
+    OnClick = btCadastroClienteClick
+  end
+  object btCadastroBanco: TButton
+    Left = 160
+    Top = 24
+    Width = 89
+    Height = 25
+    Caption = 'Cadastro Banco'
+    TabOrder = 1
+    OnClick = btCadastroBancoClick
+  end
 end
