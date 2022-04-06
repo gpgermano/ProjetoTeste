@@ -1,0 +1,15 @@
+program Project1;
+
+uses
+  Forms,
+  uCadastro in 'uCadastro.pas' {frCadastro},
+  uDataModule in 'uDataModule.pas' {dmTabelas: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TfrCadastro, frCadastro);
+  Application.CreateForm(TdmTabelas, dmTabelas);
+  Application.Run;
+end.
