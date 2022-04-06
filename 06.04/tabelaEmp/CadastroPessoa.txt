@@ -1,0 +1,2 @@
+Código: 1 | empresa: guarana | Estrangeiro: Sim
+Código: 2 | empresa: coca cola | Estrangeiro: Não

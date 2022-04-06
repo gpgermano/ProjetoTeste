@@ -1,0 +1,14 @@
+program ProjectCadastroEmpresa;
+
+uses
+  Forms,
+  uDataModule in 'uDataModule.pas' {dmCadastroEmp: TDataModule},
+  uConsulta in 'uConsulta.pas' {frConsultaEmp};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TdmCadastroEmp, dmCadastroEmp);
+  Application.Run;
+end.
