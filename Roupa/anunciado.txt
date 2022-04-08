@@ -1,0 +1,67 @@
+criar classe pai para herdar entre as clases filhas 
+
+classe pai
+cod, interger
+descricao, string
+data, string
+tamanho, string
+genero, integer
+
+classe filha venda 
+valor ,currency
+
+classe filha compra 
+valor total, currency
+
+
+===============================================================
+tela padrão para herdar com outras telas com os campos
+1 edit cod 
+3 botões (salvar, consultar, excluir, exportar)
+
+tela consulta padrão ira ter uma pesquisa por escritra
+Grid
+label 
+
+tela principal
+2 botões (venda, compra)
+===============================================================
+
+criar DataModule com as tabelas:
+tabela venda, datasource  
+bdcod, integer 
+bdDescricao, String, 100 
+bdTamanho, string, 100
+bdGenero, integer
+
+fazer rotina de criação da tabela
+
+tabela compra, datasource com os campos
+cod, integer 
+bdDescricao, String, 100
+bdvalor, currency
+bdData, integer
+ 
+tela venda (herdar da tela padrão):
+3 edits (cod, descricao, tamanho)
+1 combobox (genero)
+
+criar procedure pMensagemLimparCampos contendo os paramentros prFoco para focar no campo codigo prApresentar: Boolean para caso estar concluido ele aparecera a mensagem
+ prMensagem: String = '' contendo a mensagem ShowMessage(prMensagem + ' com sucesso!') 
+
+ 
+
+*botões*
+salvar = ao clique do botão ira inserir na tabela as informações adicionadas, e ira aparecer na tela uma menssagem de #salvo com Sucesso#
+consultar = ao clique do botão ira para a tela de consulta
+excuir = ao clique do botão ira excluir na tabela a informação, e ira aparecer na tela uma menssagem de #excuido com Sucesso# 
+
+
+tela compra (herdar da tela padrão):
+3 edits (cod, descricao, valor(mask), data(mask))
+3 botões (salvar, consultar, excluir)
+
+*botões*
+salvar = ao clique do botão ira inserir na tabela e aparecera no grid as informações adicionadas, e ira aparecer na tela uma menssagem de #salvo com Sucesso#
+consultar = ao clique do botão ira para a tela de consulta
+excuir = ao clique do botão ira excluir na tabela a informação, e ira aparecer na tela uma menssagem de #excuido com Sucesso# 
