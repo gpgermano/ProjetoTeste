@@ -1,0 +1,7 @@
+Não ordena quando clica no título
+Não limpa todos os valores no excluir
+Não limpa todos os valores no adicionar
+Só exporta alguns dados no TXT
+Quando clica no botao consultar e o código está vazio não abre a tela de consulta
+Arrumar Tab Order
+Estoura erro quando tenta ordenar pela descrição.

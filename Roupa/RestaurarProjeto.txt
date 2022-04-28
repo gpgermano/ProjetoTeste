@@ -1,0 +1,2 @@
+Calcular imposto compra, venda e mostrar no relatorio
+totalizador geral no relatorio
